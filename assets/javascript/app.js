@@ -72,7 +72,7 @@ function start() {
 
         for (var j = 0; j < questions[i].choices.length; j++) {
 
-            $("#content").append("<input type ='radio' name ='question-'" + i + "' value='" + questions[i].choices[j] + "'>" + questions[i].choices[j]);
+            $("#content").append("<input type ='radio' name ='question-" + i + "' value='" + questions[i].choices[j] + "'>" + questions[i].choices[j]);
 
         }
     }
